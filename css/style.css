@@ -219,8 +219,7 @@ footer{
     background-color: #23272a;
     width: 1500px;
     margin: auto;
-    height: 1000px;
-
+    height: 800px;
 }
 
 .side-left{
@@ -235,8 +234,52 @@ footer{
 footer ul{
     list-style-type: none;
     display: inline-block;
+    margin-top: 50px;
+    width: calc(100% / 4 - 9px);
+    margin-left: 5px;
+    
+}
+
+footer ul li{
+    margin-bottom: 8px;
 }
 
 footer li a{
    text-decoration: none;
+   color: white;
+}
+
+footer h4,
+footer h2{
+    color: #7289da;
+}
+
+footer p{
+    color: white;
+    height: 30px;
+    
+}
+
+.footer-top p img{
+    height: 15px;
+    
+}
+
+.footer-bottom{
+    height: 200px;
+    border-top: 2px solid #414d6e;
+    position: relative;
+}
+
+.footer-bottom img{
+    margin-top: 30px;
+}
+
+.btn-signup{
+    background-color: #8ea1e1;
+    color: white;
+   width: 115px;
+   position: absolute;
+   top: 30px;
+   right: 0px;
 }
