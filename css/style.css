@@ -222,11 +222,19 @@ main{
 
 footer{
     background-color: #23272a;
-    width: 1500px;
-    margin: auto;
-    height: 800px;
+    width: 100%;
 }
 
+.footer-container{
+    width: 70%;
+    margin: auto;
+}
+
+/* FOOTER TOP */
+
+.footer-top{
+    margin-bottom: 50px;
+}
 .side-left{
     float: left;
     width: 30%;
@@ -244,6 +252,7 @@ footer ul{
     margin-top: 50px;
     width: calc(100% / 4 - 9px);
     margin-left: 5px;
+    float: left;
     
 }
 
@@ -254,6 +263,7 @@ footer ul li{
 footer li a{
    text-decoration: none;
    color: white;
+   font-weight: 500;
 }
 
 footer h4,
@@ -278,6 +288,8 @@ footer p{
     height: 15px;
     
 }
+
+/* FOOTER BOTTOM */
 
 .footer-bottom{
     height: 200px;
