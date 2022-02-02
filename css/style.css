@@ -149,7 +149,7 @@ main{
 
 
 .text-container{
-    width: 50%;
+    width: 35%;
     float: left;
     color: #23272a;
 }
@@ -169,6 +169,10 @@ main{
 .text-container p{
     width: 50%;
     margin-top: 45px;
+}
+
+#channel-img{
+    margin-right: 50px;
 }
 
 .text-streaming h2{
@@ -211,6 +215,7 @@ main{
     background-color: #8ea1e1;
     color: white;
     background-size: cover;
+    width: 200px;
 }
 
 /* FOOTER */
@@ -225,6 +230,8 @@ footer{
 .side-left{
     float: left;
     width: 30%;
+    padding-left: 50px;
+    padding-top: 50px;
 }
 .side-right{
     float: left;
@@ -252,12 +259,19 @@ footer li a{
 footer h4,
 footer h2{
     color: #7289da;
+    margin-bottom: 15px;
 }
 
 footer p{
     color: white;
     height: 30px;
+    margin-bottom: 15px;
     
+}
+
+.fab{
+    margin-right: 15px;
+    color: white;
 }
 
 .footer-top p img{
@@ -272,7 +286,9 @@ footer p{
 }
 
 .footer-bottom img{
-    margin-top: 30px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
 }
 
 .btn-signup{
