@@ -38,7 +38,7 @@ header{
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1500px;
     margin: auto;
 }
 /* TOP HEADER - NAV */
@@ -131,14 +131,22 @@ nav li a:hover {
 
 /* INIZIO MAIN */
 
+main{
+    max-width: 1500px;
+    margin: auto;
+}
+
+.description-channel,
+.vocal-channel,
+.community{
+    margin-bottom: 350px;
+}
+
 .img-container{
     width: 50%;
     float: left;
 }
 
-.img-container img{
-    margin-left: 400px;
-}
 
 .text-container{
     width: 50%;
@@ -152,7 +160,6 @@ nav li a:hover {
    
 }
 
-
 .text-container p{
     font-weight: 500;
     font-size: 18px;
@@ -160,6 +167,76 @@ nav li a:hover {
 
 .text-container h2,
 .text-container p{
-    width: 30%;
+    width: 50%;
     margin-top: 45px;
+}
+
+.text-streaming h2{
+    margin-bottom: 20px;
+
+}
+
+.text-streaming p{
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 20px;
+
+}
+
+.text-streaming{
+    text-align: center;
+    width: 70%;
+    margin-bottom: 150px;
+}
+
+.text-streaming img{
+    width: 100%;
+
+}
+
+/* DOWNLOAD FOR MAC */
+
+.download-mac{
+    text-align: center;
+    margin-bottom: 200px;
+}
+.download-mac h2{
+    margin-bottom: 35px;
+    background-image: url("../img/stars.svg");
+    background-position: center;
+
+}
+
+.btn-mac-violet{
+    background-color: #8ea1e1;
+    color: white;
+    background-size: cover;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #23272a;
+    width: 1500px;
+    margin: auto;
+    height: 1000px;
+
+}
+
+.side-left{
+    float: left;
+    width: 30%;
+}
+.side-right{
+    float: left;
+    width: 70%;
+}
+
+footer ul{
+    list-style-type: none;
+    display: inline-block;
+}
+
+footer li a{
+   text-decoration: none;
 }
