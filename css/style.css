@@ -10,6 +10,10 @@ padding: 0;
     display: table;
 }
 
+.font-size-50{
+    font-size: 50px;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
     width: 100%;
@@ -30,7 +34,7 @@ header{
     line-height: 40px;
     text-decoration: none;
     font-weight: 600;
-    color: black;    
+    color: black;
 }
 
 .container{
@@ -85,6 +89,7 @@ nav li a:hover {
 .bottom-header{
     position: relative;
     height: 720px;
+    margin-bottom: 150px;
 }
 
 
@@ -93,7 +98,6 @@ nav li a:hover {
 }
 
 .bottom-header h1{
-    font-size: 50px;
     margin-bottom: 40px;
 }
 
@@ -125,4 +129,37 @@ nav li a:hover {
     color: white;
 }
 
-/*  */
+/* INIZIO MAIN */
+
+.img-container{
+    width: 50%;
+    float: left;
+}
+
+.img-container img{
+    margin-left: 400px;
+}
+
+.text-container{
+    width: 50%;
+    float: left;
+    color: #23272a;
+}
+
+.text-container h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+   
+}
+
+
+.text-container p{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.text-container h2,
+.text-container p{
+    width: 30%;
+    margin-top: 45px;
+}
