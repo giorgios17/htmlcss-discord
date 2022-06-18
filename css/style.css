@@ -1,32 +1,32 @@
-*{
-box-sizing: border-box;
-margin: 0;
-padding: 0;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.clearfix::after{
+.clearfix::after {
     content: '';
     clear: both;
     display: table;
 }
 
-.font-size-50{
+.font-size-50 {
     font-size: 50px;
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     width: 100%;
     height: 100vh;
 }
 
-header{
+header {
     background-image: url("../img/jumbo.png");
     background-size: cover;
-    
+
 }
 
-.btn{
+.btn {
     background-color: white;
     border-radius: 50px;
     display: inline-block;
@@ -37,39 +37,40 @@ header{
     color: black;
 }
 
-.container{
+.container {
     max-width: 1500px;
     margin: auto;
 }
+
 /* TOP HEADER - NAV */
 
-.top-header{
+.top-header {
     height: 80px;
     line-height: 80px;
 }
 
-.logo{
+.logo {
     width: 25%;
     float: left;
 }
 
-.logo img{
-   vertical-align: middle;
+.logo img {
+    vertical-align: middle;
 }
 
 
-nav ul li{
+nav ul li {
     display: inline-block;
     float: left;
     margin-right: 40px;
-   
+
 }
 
-nav ul li a{
+nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: 500;
-    
+
 }
 
 nav li a:hover {
@@ -78,7 +79,7 @@ nav li a:hover {
 }
 
 
-.btn-login{
+.btn-login {
     margin-left: 225px;
     height: 40px;
     width: 85px;
@@ -86,28 +87,29 @@ nav li a:hover {
 
 /* BOTTOM HEADER */
 
-.bottom-header{
+.bottom-header {
     position: relative;
     height: 720px;
     margin-bottom: 150px;
 }
 
 
-.bottom-header h1, .bottom-header p{
+.bottom-header h1,
+.bottom-header p {
     color: white;
 }
 
-.bottom-header h1{
+.bottom-header h1 {
     margin-bottom: 40px;
 }
 
-.bottom-header p{
+.bottom-header p {
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 30px;
 }
 
-.container-bottom{
+.container-bottom {
     width: 35%;
     margin: auto;
     text-align: center;
@@ -117,13 +119,13 @@ nav li a:hover {
     transform: translate(-50%, -50%);
 }
 
-.btn-download-mac{
+.btn-download-mac {
     width: 180px;
     margin-right: 20px;
 }
 
 
-.btn-discord-browser{
+.btn-discord-browser {
     width: 295px;
     background-color: #23272a;
     color: white;
@@ -131,87 +133,87 @@ nav li a:hover {
 
 /* INIZIO MAIN */
 
-main{
+main {
     max-width: 1500px;
     margin: auto;
 }
 
 .description-channel,
 .vocal-channel,
-.community{
+.community {
+    margin: auto;
     margin-bottom: 350px;
+
 }
 
-.img-container{
+.img-container {
     width: 50%;
     float: left;
 }
 
 
-.text-container{
-    width: 35%;
+.text-container {
+    width: 50%;
     float: left;
     color: #23272a;
 }
 
-.text-container h2{
+.text-container h2 {
     font-size: 50px;
     margin-bottom: 20px;
-   
+
 }
 
-.text-container p{
+.text-container p {
     font-weight: 500;
     font-size: 18px;
 }
 
 .text-container h2,
-.text-container p{
+.text-container p {
     width: 50%;
     margin-top: 45px;
 }
 
-#channel-img{
-    margin-right: 50px;
-}
-
-.text-streaming h2{
+.text-streaming h2 {
     margin-bottom: 20px;
 
 }
 
-.text-streaming p{
+.text-streaming p {
     font-weight: 500;
     font-size: 18px;
     margin-bottom: 20px;
 
 }
 
-.text-streaming{
+.text-streaming {
     text-align: center;
+    margin: auto;
     width: 70%;
     margin-bottom: 150px;
 }
 
-.text-streaming img{
+.text-streaming img {
     width: 100%;
 
 }
 
 /* DOWNLOAD FOR MAC */
 
-.download-mac{
+.download-mac {
     text-align: center;
     margin-bottom: 200px;
 }
-.download-mac h2{
+
+.download-mac h2 {
     margin-bottom: 35px;
     background-image: url("../img/stars.svg");
     background-position: center;
 
 }
 
-.btn-mac-violet{
+.btn-mac-violet {
     background-color: #8ea1e1;
     color: white;
     background-size: cover;
@@ -220,95 +222,96 @@ main{
 
 /* FOOTER */
 
-footer{
+footer {
     background-color: #23272a;
     width: 100%;
 }
 
-.footer-container{
+.footer-container {
     width: 70%;
     margin: auto;
 }
 
 /* FOOTER TOP */
 
-.footer-top{
+.footer-top {
     margin-bottom: 50px;
 }
 
-.side-left{
+.side-left {
     float: left;
     width: 30%;
     padding-left: 50px;
     padding-top: 50px;
 }
-.side-right{
+
+.side-right {
     float: left;
     width: 70%;
 }
 
-footer ul{
+footer ul {
     list-style-type: none;
     display: inline-block;
     margin-top: 50px;
     width: calc(100% / 4 - 9px);
     margin-left: 5px;
     float: left;
-    
+
 }
 
-footer ul li{
+footer ul li {
     margin-bottom: 8px;
 }
 
-footer li a{
-   text-decoration: none;
-   color: white;
-   font-weight: 500;
+footer li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
 }
 
 footer h4,
-footer h2{
+footer h2 {
     color: #7289da;
     margin-bottom: 15px;
 }
 
-footer p{
+footer p {
     color: white;
     height: 30px;
     margin-bottom: 15px;
-    
+
 }
 
-.fab{
+.fab {
     margin-right: 15px;
     color: white;
 }
 
-.footer-top p img{
+.footer-top p img {
     height: 15px;
-    
+
 }
 
 /* FOOTER BOTTOM */
 
-.footer-bottom{
+.footer-bottom {
     height: 200px;
     border-top: 2px solid #414d6e;
     position: relative;
 }
 
-.footer-bottom img{
+.footer-bottom img {
     position: absolute;
     top: 30px;
     left: 0px;
 }
 
-.btn-signup{
+.btn-signup {
     background-color: #8ea1e1;
     color: white;
-   width: 115px;
-   position: absolute;
-   top: 30px;
-   right: 0px;
+    width: 115px;
+    position: absolute;
+    top: 30px;
+    right: 0px;
 }
